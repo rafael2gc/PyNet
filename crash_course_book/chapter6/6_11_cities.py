@@ -7,4 +7,4 @@ cities = {
 for city, data in cities.items():
     print(f"\nInformacoes sobre {city.title()}:")
     for key, value in data.items():
-        print(f"- {key.title()}: {value.title()}")
+        print(f"\t- {key.title()}: {value.title()}")
